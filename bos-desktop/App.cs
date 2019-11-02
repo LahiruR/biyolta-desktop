@@ -20,7 +20,7 @@ namespace bos_desktop
 			test.Hello();
 
 			MySql.Data.MySqlClient.MySqlConnection connection = Connection.GetInstance().GetConnection();
-
+			Console.WriteLine("Hello Console log");
 
 			/*Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
